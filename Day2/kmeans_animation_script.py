@@ -22,8 +22,6 @@ y = iris.target
 X3d = X[:,feats_idx]
 X2d = X[:,feats_idx[:2]]
 
-np.random.seed(10)
-
 # Initializing means:
 centroids_3d = np.zeros((k, X3d.shape[-1]))
 for dim in range(X3d.shape[1]):
