@@ -1,10 +1,5 @@
 import numpy as np
-from IPython.display import HTML
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib.animation import FuncAnimation
-from sklearn.cluster import KMeans
-from sklearn import datasets
 
 # A manual implementation of k-means from the example at: 
 # https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_iris.html

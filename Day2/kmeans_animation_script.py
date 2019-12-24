@@ -120,4 +120,6 @@ plt.subplots_adjust(wspace=0.4, hspace=0.4)
 
 anim = FuncAnimation(fig, animate, frames=10, repeat=False, interval=1000)
 
+# anim.save('Kmeans_iterations.mp4', fps=1, writer='ffmpeg')
+
 plt.show()
